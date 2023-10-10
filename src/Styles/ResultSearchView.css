@@ -1,0 +1,46 @@
+.styleResultSearchView{
+    background: white;
+    padding:  16px;
+    border-radius: 10px;
+    text-align: left;
+}
+.styleResultSearchView .imagenBackground{
+    width: 100%;
+    height: 180px;
+    background-size: cover;
+    background-position: center center;
+    border-radius: 4px;
+}
+.styleResultSearchView .styleContentProduct {
+    padding: 10px;
+}
+
+.styleResultSearchView  h6 {
+    font-size: 12px;
+    font-weight: 400;
+    color: #999;
+}
+.styleResultSearchView .styleHr{
+    margin: 16px 0;
+    border-color: #999;
+    border-top: none;
+}
+
+.styleResultSearchView .styleContentProduct .stylePrice h2{
+    margin: 0;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 24px;
+    color: #333;
+}
+.styleResultSearchView .styleContentProduct .stylePrice  .iconCart{
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 10px;
+}
+.styleResultSearchView .styleContentProduct   p{
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 0;
+    color: #333;
+}

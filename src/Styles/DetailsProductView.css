@@ -1,0 +1,62 @@
+.styleDetailsProductView{
+    background: white;
+    padding:  16px;
+    border-radius: 10px;
+    text-align: left;
+}
+.styleDetailsProductView .imageProductDetails{
+    width: auto;
+    max-height: 600px;
+    display: block;
+    margin: auto;
+}
+.styleDetailsProductView .styleDetailsPrice{
+    padding-top: 32px;
+}
+.styleDetailsProductView .styleDetailsPrice h6{
+    font-size: 14px;
+    margin: 0;
+    font-weight: 400;
+    color: #666;
+}
+.styleDetailsProductView .styleDetailsPrice h1{
+    font-size: 24px;
+    margin: 5px 0;
+    font-weight: bold;
+    color: #333;
+
+}
+.styleDetailsProductView .styleDetailsPrice h2{
+    font-size: 46px;
+    margin: 0;
+    font-weight: 500;
+    color: #333;
+
+}
+
+.styleDetailsProductView .styleDetailsPrice button{
+    background-color: #3483fa;  
+    border: none;
+    color: #fff;
+    padding: 10px 50px; 
+    border-radius: 4px;
+    font-size: 16px;
+    margin-top: 20px;
+    width: 100%;
+    cursor: pointer;
+}
+.styleDetailsProductView .descriptionProduct h3{
+    font-size: 28px;
+    margin-top: 40px;
+    margin-bottom: 0;
+}
+.styleDetailsProductView .descriptionProduct p{
+    font-size: 16px;
+}
+
+@media (max-width: 576px) { 
+    .styleDetailsProductView .imageProductDetails{
+        height: auto;
+        width: 100%;
+    }
+}
